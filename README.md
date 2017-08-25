@@ -23,4 +23,4 @@ minprice | int
 
 ***Endpoint:*** {host}/v1/hotels
 
-***Example:*** http://localhost:2222/v1/hotels
+***Example:*** http://localhost:2221/v1/hotels
