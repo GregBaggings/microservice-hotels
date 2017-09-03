@@ -24,3 +24,32 @@ minprice | int
 ***Endpoint:*** {host}/v1/hotels
 
 ***Example:*** http://localhost:2221/v1/hotels
+
+#### List a certain hotel with its short details by its name
+***Endpoint:*** {host}/v1/hotels/hotel  
+
+Params | Type  
+------------ | -------------   
+name | string   
+
+***Example:*** http://localhost:2222/v1/hotel?name=Hotel1
+
+#### List a certain hotel with its short details by its id
+***Endpoint:*** {host}/v1/hotels/hotel  
+
+Params | Type  
+------------ | -------------   
+id | int   
+
+***Example:*** http://localhost:2222/v1/hotel?id=1
+
+
+#### List hotels for a given destination
+***Endpoint:*** /v1/hotels/{city}  
+
+Params | Type  
+------------ | -------------   
+city | string   
+
+***Example:*** http://localhost:2222/v1/hotels/Budapest
+
