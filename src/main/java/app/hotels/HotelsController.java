@@ -1,4 +1,4 @@
-package app.search;
+package app.hotels;
 
 import app.handlers.ErrorHandler;
 import app.models.Hotel;
