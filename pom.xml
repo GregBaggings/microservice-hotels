@@ -21,6 +21,7 @@
     </parent>
 
     <dependencies>
+        <!-- Spring Dependencies -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
@@ -47,15 +48,25 @@
             <version>1.5.6.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- H2 DB -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.193</version>
         </dependency>
+
+        <!-- JSON and testing -->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>3.0.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

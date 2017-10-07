@@ -1,4 +1,4 @@
-package unittests;
+package unitTests;
 
 import app.models.HotelsDAO;
 import app.models.HotelsRepository;
